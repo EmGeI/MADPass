@@ -113,7 +113,7 @@ class SitePasswordForm:
 
         # password entry field
         self.password_label = Label(parent, text='Your password:', font=LABEL_FONT)
-        self.password_entry = Entry(parent, font=ENTRY_FONT,
+        self.password_entry = Entry(parent, show='*', font=ENTRY_FONT,
                               textvar=self.password)
 
         # site entry field
