@@ -55,4 +55,4 @@ foo@bar:~$ cd Site-Specific-Password-Generator
 foo@bar:~$ sudo cp ssp.pyw /usr/bin/
 ```
 
-You can create a launcher on the desktop for convenience
+Vous pouvez ensuite créer un raccourci sur votre bureau si vous le souhaitez.
