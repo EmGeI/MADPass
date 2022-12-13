@@ -4,7 +4,7 @@ password unique to the site.  Using this tool, you only have to memorize
 one password for all your Web logins, without worrying that anyone who
 knows your password for one site will be able to use it on another one.
 
-There are two input fields:
+There are three input fields:
 
         Your password
                 A string that you can remember.  It should still be hard for others
@@ -13,9 +13,10 @@ There are two input fields:
         Site name
                 Your name for the site.  For example, Schwab or Amazon.
                 Case insensitive.
+        Nb Char
+                Allows you to define the number of characters your final password will have.
 
-The site-specific password appears in the third field.  It will be 12 ASCII
-characters.  Click "Copy to Clipboard" or just press the Enter key to put the
+The site-specific password appears in the fourth field.  It will be composed of the number of ASCII characters that you will have predefined in the drop-down menu.  Click "Copy to Clipboard" or just press the Enter key to put the
 generated password on the clipboard so you can paste it into the password
 field on the web site.  If you are using a site that accepts only numbers and
 letters in passwords, check "Letters and numbers only
@@ -26,16 +27,19 @@ mot de passe unique sur le site. En utilisant cet outil, vous n'avez qu'à mémo
 un mot de passe pour toutes vos connexions Web, sans craindre que quiconque
 sait que votre mot de passe pour un site pourra l'utiliser sur un autre.
 
-Il existe deux champs de saisie:
-> Votre mot de passe
-  > - Une chaîne dont vous vous souviendrez. Cela devrait encore être difficile pour les autres deviner parce que cet outil utilise un algorithme bien connu et vous utilisez un nom de site bien connu. 
-  > - Sensible aux majuscules et minuscules.
-  
-> Nom du site
-  > - Votre nom pour le site. Par exemple, Schwab ou Amazon.
-  > - Insensible à la casse.
+Il existe trois champs de saisie:
 
-Le mot de passe spécifique au site apparaît dans le troisième champ. Il sera composé de 12 caractère ASCII. 
+        Votre mot de passe
+                Une chaîne dont vous vous souviendrez. Cela devrait encore être difficile pour les autres
+                deviner parce que cet outil utilise un algorithme bien connu et vous
+                utilisez un nom de site bien connu. Sensible aux majuscules et minuscules.
+        Nom du site
+                Votre nom pour le site. Par exemple, Schwab ou Amazon.
+                Insensible à la casse.
+        Nb Char
+                Permet de définir le nombre de caractères qu'aura votre mot de passe final
+
+Le mot de passe spécifique au site apparaît dans le quatrième champ. Il sera composé du nombre caractère ASCII que vous aurez prédéfini dans le menu déroulant. 
 Cliquez sur "Copier dans le presse-papiers" ou appuyez simplement sur la touche Entrée pour
 mot de passe généré dans le presse-papiers afin que vous puissiez le coller dans le mot de passe
 sur le site Web. Si vous utilisez un site qui n'accepte que des chiffres et
