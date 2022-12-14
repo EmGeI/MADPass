@@ -47,16 +47,20 @@ lettres dans les mots de passe, cochez "Lettres et chiffres uniquement.
 
 # Installation
 ## Prérequis
-- Installation de tkinter pour Python3 
+- Installation de git, python3, pip, tkinter et pillow pour Python3 
 ```console 
-foo@bar:~$ sudo apt install python3-tkinter
+foo@bar:~$ sudo apt install python3
+foo@bar:~$ sudo apt install python3-tk
+foo@bar:~$ sudo apt install python3-pip
+foo@bar:~$ python3 -m pip install --upgrade pip
+foo@bar:~$ python3 -m pip install --upgrade Pillow
 ```
 
 - Clone the repository and copy file on **/usr/bin/**
 ```console 
-foo@bar:~$ git clone https://github.com/EmGeI/Site-Specific-Password-Generator/
-foo@bar:~$ cd Site-Specific-Password-Generator
-foo@bar:~$ sudo cp ssp.pyw /usr/bin/
+foo@bar:~$ git clone https://github.com/EmGeI/MADPass/
+foo@bar:~$ cd MADPass
+foo@bar:~$ python3 MADPass.py
 ```
 
 Vous pouvez ensuite créer un raccourci sur votre bureau si vous le souhaitez.
