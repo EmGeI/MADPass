@@ -1,4 +1,4 @@
-# Site-Specific-Password-Generator
+# MADPass : Site-Specific-Password-Generator
 This tool combines your password with a name for a website to produce a
 password unique to the site.  Using this tool, you only have to memorize
 one password for all your Web logins, without worrying that anyone who
